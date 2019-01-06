@@ -1,6 +1,6 @@
 {
-  "name": "andy",
-  "version": "0.1.0",
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
