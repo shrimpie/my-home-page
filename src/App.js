@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        This is Andy.
+        This is Min and Yang.
       </div>
     );
   }
