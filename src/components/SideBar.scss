@@ -1,0 +1,25 @@
+
+.sidenav .user-view>a {
+	/*border: 1px solid red;*/
+	height: 30px;
+	&:first-of-type {
+		height: auto;
+	}
+}
+
+.sidenav .user-view {
+	.name, .email, .github, .linkedin {
+		display: block;
+		margin: 0;
+		line-height: 30px;
+		font-weight: 500;
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
