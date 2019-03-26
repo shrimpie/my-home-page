@@ -1,9 +1,11 @@
 
-.sidenav .user-view>a {
-	/*border: 1px solid red;*/
-	height: 30px;
-	&:first-of-type {
-		height: auto;
+.sidenav .user-view {
+	height: 205px;
+	>a {
+		height: 30px;
+		&:first-of-type {
+			height: auto;
+		}
 	}
 }
 
