@@ -1,23 +1,19 @@
+.sidenav .user-view {
+  height: 205px;
+  &>a {
+    height: 30px;
+    &:first-of-type {
+      height: auto;
+    }
+  }
+}
 
 .sidenav .user-view {
-	height: 205px;
-}
-
-.sidenav .user-view>a {
-	height: 30px;
-}
-
-.sidenav .user-view>a:first-of-type {
-	height: auto;
-}
-
-.sidenav .user-view .name,
-.sidenav .user-view .email,
-.sidenav .user-view .github,
-.sidenav .user-view .linkedin {
-	display: block;
-	margin: 0;
-	line-height: 30px;
-	font-weight: 500;
-	font-size: 14px;
+  .name, .email, .github, .linkedin {
+    display: block;
+    margin: 0;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 14px;
+  }
 }
