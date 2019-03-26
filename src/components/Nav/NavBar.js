@@ -9,8 +9,8 @@ const Navbar = () => {
     <React.Fragment>
 
       <ul id="dropdown1" className="dropdown-content">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/api-example">Api Example</Link></li>
+        <li><Link to="/meeting-example">Meeting Example</Link></li>
         <li className="divider"></li>
         <li><Link to="/">Home</Link></li>
       </ul>
@@ -28,7 +28,7 @@ const Navbar = () => {
               <a className="dropdown-trigger" 
                  href="#!" 
                  data-target="dropdown1">
-                  Dropdown
+                  Projects
                 <i className="material-icons right">
                   arrow_drop_down
                 </i>

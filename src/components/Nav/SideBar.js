@@ -16,9 +16,9 @@ const SideBar = () => {
             <Link to="/">
               <img className="circle" src="images/me.png" alt="me" />
             </Link>
-            <a href="/">
+            <Link to="/">
               <span className="white-text name">Zhenyu Yang</span>
-            </a>
+            </Link>
             <a href="https://github.com/shrimpie" target="_blank"
                rel="noopener noreferrer">
               <span className="white-text github">GitHub</span>
@@ -45,12 +45,12 @@ const SideBar = () => {
         <li><a href="#!" className="subheader">Projects</a></li>
         <li>
           <Link to="/api-example" className="waves-effect">
-            API example
+            API Example
           </Link>
         </li>
         <li>
           <Link to="/meeting-example" className="waves-effect">
-            Meeting example
+            Meeting Example
           </Link>
         </li>
       </ul>

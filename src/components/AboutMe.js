@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
 
 	return (
-		<div>This is about me page</div>
+		<h4>About me page todo</h4>
 	)
 }
 
